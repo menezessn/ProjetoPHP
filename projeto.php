@@ -16,7 +16,14 @@ function somaValor($valor1, $valor2){
 
 echo("soma de valores :" .$resultado  = somaValor(20,15));
 
-printf("</br> Valor a ser pago R$ %.2f", $resultado);
+printf("<br/> Valor a ser pago R$ %.2f", $resultado);
+
+$nomes = array('Paulo', 'Lucas', 'Pedro');
+foreach ($nomes as $item){
+
+    echo "</br>" . $item;
+
+}
 
 
 
